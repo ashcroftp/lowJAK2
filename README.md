@@ -12,7 +12,7 @@ Functions to plot the single parameter change panels in Supplemental Figure S9
 Functions to plot the parameter changes and VAF across hematopoietic cell compartments.
 
 ## Shiny app
-Described by the files ui.R, server.R, global.R, and restart.txt.
+Described by the files ui.R, server.R, global.R, and restart.txt (empty).
 This app is hosted at ...
 
 ## R/

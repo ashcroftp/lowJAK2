@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/273248098.svg)](https://zenodo.org/badge/latestdoi/273248098)
 # MPN patients with low mutant JAK2 allele burden show late expansion restricted to erythroid and megakaryocytic lineages
 *by Ronny Nienhold, Peter Ashcroft, Jakub Zmajkovic, Shivam Rai, Tata Nageswara Rao, Beatrice Drexler, Sara C. Meyer,
 Pontus Lundberg, Jakob R. Passweg, Danijela Lekovic, Vladan Cokic, Sebastian Bonhoeffer and Radek C. Skoda*
@@ -20,5 +21,4 @@ Supplemental functions for data handling and plotting
 
 ## zz-data/
 Parameters and results of modelling stored as .RData or .xlsx files
-
 

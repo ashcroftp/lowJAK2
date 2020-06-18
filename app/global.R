@@ -3,7 +3,7 @@
 
 # Load default WT parameter values ----
 WT <- new.env()
-load("../zz-Data/WT-params.RData", envir = WT)
+load("../zz-data/WT-params.RData", envir = WT)
 #' Global defintions
 name.vec <- WT$name.vec
 n <- WT$n
@@ -19,7 +19,7 @@ default.wt <- list(
 
 # Default mutant parameters (P339; platelet and red cell biased) ----
 MUT <- new.env()
-load("../zz-Data/MUT-params-P339.RData", envir = MUT)
+load("../zz-data/MUT-params-P339.RData", envir = MUT)
 
 default.mut <- list(
   ic = MUT$mut.ic,
@@ -90,7 +90,7 @@ RS.mut <- list(
 
 # P339 (platelet and red cell biased) ----
 MUT1 <- new.env()
-load("../zz-Data/MUT-params-P339.RData", envir = MUT1)
+load("../zz-data/MUT-params-P339.RData", envir = MUT1)
 
 mut.P339 <- list(
   ic = MUT1$mut.ic,
@@ -102,7 +102,7 @@ mut.P339 <- list(
 
 # P433 (platelet biased) ----
 MUT2 <- new.env()
-load("../zz-Data/MUT-params-P433.RData", envir = MUT2)
+load("../zz-data/MUT-params-P433.RData", envir = MUT2)
 
 mut.P433 <- list(
   ic = MUT2$mut.ic,
@@ -114,7 +114,7 @@ mut.P433 <- list(
 
 # P433 (platelet biased) alternative ----
 MUT2.alt <- new.env()
-load("../zz-Data/MUT-params-P433-alt.RData", envir = MUT2.alt)
+load("../zz-data/MUT-params-P433-alt.RData", envir = MUT2.alt)
 
 mut.P433.alt <- list(
   ic = MUT2.alt$mut.ic,
@@ -127,7 +127,7 @@ mut.P433.alt <- list(
 
 # P328 (red cell biased) ----
 MUT3 <- new.env()
-load("../zz-Data/MUT-params-P328.RData", envir = MUT3)
+load("../zz-data/MUT-params-P328.RData", envir = MUT3)
 
 mut.P328 <- list(
   ic = MUT3$mut.ic,
@@ -139,7 +139,7 @@ mut.P328 <- list(
 
 # P328 (red cell biased) alternative ----
 MUT3.alt <- new.env()
-load("../zz-Data/MUT-params-P328-alt.RData", envir = MUT3.alt)
+load("../zz-data/MUT-params-P328-alt.RData", envir = MUT3.alt)
 
 mut.P328.alt <- list(
   ic = MUT3.alt$mut.ic,

@@ -3,9 +3,9 @@
 
 library(shiny)
 
-source("R/basicFunctions.R")
-source("R/simulateModel.R")
-source("R/plotFunctions.R")
+source("../R/basicFunctions.R")
+source("../R/simulateModel.R")
+source("../R/plotFunctions.R")
 
 # Some values which are only used in server ----
 y.pos <- c(1,1,0,-1,-1,-1,0,0,1,1)

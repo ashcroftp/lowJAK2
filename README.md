@@ -11,8 +11,8 @@ Functions to plot the single parameter change panels in Supplemental Figure S9
 ## hematopoiesis-figures.R
 Functions to plot the parameter changes and VAF across hematopoietic cell compartments.
 
-## Shiny app
-Described by the files ui.R, server.R, global.R, and restart.txt (empty).
+## app/
+R Shiny application described by the files ui.R, server.R, global.R, and restart.txt (empty).
 This app is hosted at ...
 
 ## R/

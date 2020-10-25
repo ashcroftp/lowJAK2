@@ -210,7 +210,9 @@ plotTree <- function(adj, y.pos, show.diff = FALSE, colour.vec = NULL, alpha.vec
 plotFractionParams <- function(fraction.df, wt.div, mut.div, wt.sr, mut.sr, wt.adj, mut.adj, wt.death, mut.death, show.var = c("sr", "div", "branch", "death"), colour.vec = NULL, alpha.vec = NULL, show.tree = FALSE, y.pos = NULL, tree.height = 0.25, compartment.names = NULL, ...) {
   #' Default colour scheme
   if (is.null(colour.vec)) colour.vec <- colourGradient(seq_len(nrow(wt.adj)))
+  if (is.null(names(colour.vec))) names(colour.vec) <- seq_len(nrow(wt.adj))
   if (is.null(alpha.vec)) alpha.vec <- rep.int(1, nrow(wt.adj))
+  if (is.null(names(alpha.vec))) names(alpha.vec) <- seq_len(nrow(wt.adj))
 
   #' Load dataframe which we will extend
   plot.df <- fraction.df
@@ -287,7 +289,9 @@ plotFractionParams <- function(fraction.df, wt.div, mut.div, wt.sr, mut.sr, wt.a
 plotFractionParams2 <- function(fraction.df, wt.div, mut.div, wt.sr, mut.sr, wt.adj, mut.adj, wt.amp, mut.amp, show.var = c("sr", "div", "amp"), colour.vec = NULL, alpha.vec = NULL, show.tree=FALSE, y.pos=NULL, tree.height = 0.25, compartment.names=NULL, ...) {
   #' Default colour scheme
   if (is.null(colour.vec)) colour.vec <- colourGradient(seq_len(nrow(wt.adj)))
+  if (is.null(names(colour.vec))) names(colour.vec) <- seq_len(nrow(wt.adj))
   if (is.null(alpha.vec)) alpha.vec <- rep.int(1, nrow(wt.adj))
+  if (is.null(names(alpha.vec))) names(alpha.vec) <- seq_len(nrow(wt.adj))
 
   #' Load dataframe which we will extend
   plot.df <- fraction.df
@@ -354,7 +358,9 @@ plotFractionParams2 <- function(fraction.df, wt.div, mut.div, wt.sr, mut.sr, wt.
 plotFractionParamsAbsolute <- function(fraction.df, wt.div, mut.div, wt.sr, mut.sr, wt.adj, mut.adj, wt.death, mut.death, show.var = c("sr", "div", "branch", "death"), colour.vec = NULL, alpha.vec = NULL, show.tree = FALSE, y.pos = NULL, tree.height = 0.25, compartment.names = NULL, ...) {
   #' Default colour scheme
   if (is.null(colour.vec)) colour.vec <- colourGradient(seq_len(nrow(wt.adj)))
+  if (is.null(names(colour.vec))) names(colour.vec) <- seq_len(nrow(wt.adj))
   if (is.null(alpha.vec)) alpha.vec <- rep.int(1, nrow(wt.adj))
+  if (is.null(names(alpha.vec))) names(alpha.vec) <- seq_len(nrow(wt.adj))
 
   #' Dataframe of clonal fraction for plotting
   #' Colour as a function of id and value
